@@ -1,0 +1,36 @@
+# Tests suite
+@_vicenteserrano
+
+# node.js
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
+**/lodash.js
+tests/pages/*.js
+tests/pages/integration.html
+tests/local/serve/
+tags/tag.min.js
+
+# creds for Grunt
+aws.json
+
+# Vagrant
+.vagrant
+VERSION
+
+src/js/lib_managed
+
+.idea/
